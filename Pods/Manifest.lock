@@ -1,0 +1,27 @@
+PODS:
+  - YYCache (1.0.3)
+  - YYCategories (1.0.3):
+    - YYCategories/no-arc (= 1.0.3)
+  - YYCategories/no-arc (1.0.3)
+  - YYImage (1.0.3):
+    - YYImage/Core (= 1.0.3)
+  - YYImage/Core (1.0.3)
+  - YYImage/WebP (1.0.3):
+    - YYImage/Core
+  - YYWebImage (1.0.4):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - YYCategories
+  - YYImage
+  - YYImage/WebP
+  - YYWebImage
+
+SPEC CHECKSUMS:
+  YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
+  YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
+  YYImage: 362f44ffba1fc498f2152060f3bb54ed84600981
+  YYWebImage: 0431ed108e104527669b86f75efd58958425cca2
+
+COCOAPODS: 0.39.0
