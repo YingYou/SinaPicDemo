@@ -17,6 +17,7 @@
 		44A4FF181D74206400DFBF95 /* YYGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A4FF171D74206400DFBF95 /* YYGestureRecognizer.m */; };
 		44A4FF1B1D74231700DFBF95 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A4FF1A1D74231700DFBF95 /* TestViewController.m */; };
 		CED438C50A43153814764936 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 464A72C6E82395A048050A21 /* libPods.a */; };
+		DA6FE95B20AF20F70080A9E0 /* DevObj.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6FE95A20AF20F70080A9E0 /* DevObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		44A4FF191D74231700DFBF95 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		44A4FF1A1D74231700DFBF95 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		464A72C6E82395A048050A21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6FE95920AF20F70080A9E0 /* DevObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevObj.h; sourceTree = "<group>"; };
+		DA6FE95A20AF20F70080A9E0 /* DevObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				44A4FEE81D73D0DB00DFBF95 /* Supporting Files */,
 				44A4FF191D74231700DFBF95 /* TestViewController.h */,
 				44A4FF1A1D74231700DFBF95 /* TestViewController.m */,
+				DA6FE95920AF20F70080A9E0 /* DevObj.h */,
+				DA6FE95A20AF20F70080A9E0 /* DevObj.m */,
 			);
 			path = SinaPic;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 				44A4FF151D741E8500DFBF95 /* YYControl.m in Sources */,
 				44A4FEED1D73D0DB00DFBF95 /* AppDelegate.m in Sources */,
 				44A4FEEA1D73D0DB00DFBF95 /* main.m in Sources */,
+				DA6FE95B20AF20F70080A9E0 /* DevObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

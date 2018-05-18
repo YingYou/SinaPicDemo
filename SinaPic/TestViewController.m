@@ -20,6 +20,11 @@
 @interface TestViewController (){
     
     NSArray *picArra;
+    
+    
+    
+    
+    
 }
 
 @end
@@ -32,7 +37,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     picArra = [NSArray arrayWithObjects:@"http://ww2.sinaimg.cn/wap720/6204ece1gw1evvzegkumsj20k069f4hm.jpg",@"http://ww4.sinaimg.cn/wap720/6204ece1gw1evvzh9bp37j20fa08yjt5.jpg",@"http://ww4.sinaimg.cn/wap720/6204ece1gw1evvzh9bp37j20fa08yjt5.jpg",@"http://ww4.sinaimg.cn/wap720/6204ece1gw1evvzh9bp37j20fa08yjt5.jpg",@"http://ww4.sinaimg.cn/wap720/6204ece1gw1evvzh9bp37j20fa08yjt5.jpg",@"http://ww4.sinaimg.cn/wap720/6204ece1gw1evvzh9bp37j20fa08yjt5.jpg",@"http://ww4.sinaimg.cn/wap720/6204ece1gw1evvzh9bp37j20fa08yjt5.jpg", nil];
     [self _layoutPicsWithStatus:NO];
-    CGSize picSize = CGSizeZero;
+//    CGSize picSize = CGSizeZero;
     
     NSMutableArray *picViews = [NSMutableArray new];
     
