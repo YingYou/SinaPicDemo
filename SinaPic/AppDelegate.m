@@ -25,7 +25,7 @@
     self.window.rootViewController = testVC;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-
+    //添加myDev分支数据在远程分支dev3上面
     
     return YES;
 }
